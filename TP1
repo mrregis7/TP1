@@ -115,12 +115,12 @@ public class TP1 {
 					
 					// Impedindo que o usuario busque por um id que não tenha sido cadastrado
 					if(id >= 0 && id < i) {
-					System.out.println(".....Funcionário............");	
+					System.out.println(".....Aluno............");	
 					imprimir(id);
 					System.out.println("............................");
 					}
 					else {
-						System.out.println("Impossível encontrar o funcionário!");
+						System.out.println("Impossível encontrar o Aluno!");
 					}
 					break;
 						
@@ -139,8 +139,8 @@ public class TP1 {
 				
 
 				
-				System.out.println("Quantidade de funcionários: " + i);
-				System.out.println("Média salarial: " + calcularMediaNotas(i));
+				System.out.println("Quantidade de Aluno: " + i);
+				System.out.println("Média notas: " + calcularMediaNotas(i));
 				in.close();
 				}
 	
